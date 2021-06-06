@@ -38,7 +38,7 @@
 	- v2-ui一键安装
 	- wulabing一键xray脚本
 
-![功能列表](https://github.com/TT-IPIP/shell/master/jcnf-box-main/img/sm.png)
+![功能列表](https://raw.githubusercontent.com/TT-IPIP/shell/master/jcnf-box-main/img/sm.png)
 ***
 
 # 免责声明
