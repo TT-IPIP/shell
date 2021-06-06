@@ -9,7 +9,7 @@
 
 安装并运行脚本
 
-	wget -O jcnfbox.sh https://raw.githubusercontent.com/Netflixxp/jcnf-box/main/jcnfbox.sh && chmod +x jcnfbox.sh && clear && ./jcnfbox.sh
+	wget -O jcnfbox.sh https://raw.githubusercontent.com/TT-IPIP/shell/jcnf-box/main/jcnfbox.sh && chmod +x jcnfbox.sh && clear && ./jcnfbox.sh
 ***
 
 # 功能说明
@@ -38,7 +38,7 @@
 	- v2-ui一键安装
 	- wulabing一键xray脚本
 
-![功能列表](https://github.com/Netflixxp/jcnf-box/blob/main/img/sm.png)
+![功能列表](https://github.com/TT-IPIP/shell/jcnf-box/blob/main/img/sm.png)
 ***
 
 # 免责声明
@@ -47,16 +47,16 @@
 ***
 
 # 问题反馈
-[TG频道](https://t.me/mffjc)
-[TG群组](https://t.me/jcnfnatuo)
+[TG频道](https://t.me/)
+[TG群组](https://t.me/)
 ***
 
-# [购买奈飞、YouTube正规合租车](https://jcnf.xyz/nf)
+# [123](123)
 ***
 
 # 感谢
- * [BlueSkyXN](https://github.com/BlueSkyXN/SKY-BOX)
- * [arloor](https://github.com/arloor/iptablesUtils)
- * [KANIKIG](https://github.com/KANIKIG/Multi-EasyGost)
- * [wulabing](https://github.com/wulabing/Xray_onekey)
- * [mack-a](https://github.com/mack-a/v2ray-agent)
+ * [BlueSkyXN]
+ * [arloor]
+ * [KANIKIG]
+ * [wulabing]
+ * [mack-a]
