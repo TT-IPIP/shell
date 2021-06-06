@@ -47,7 +47,7 @@ bash "/root/jcnf.sh"
 
 #Speedtest for Linux·下载
 function speedtest-linux(){
-wget -O "/root/speedtest" "https://raw.githubusercontent.com/Netflixxp/jcnf-box/master/sh//speedtest" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/speedtest" "https://raw.githubusercontent.com/TT-IPIP/shell/master/jcnf-box-main/sh//speedtest" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/speedtest"
 chmod 777 "/root/speedtest"
 yellow "下载完成,之后可执行 bash /root/speedtest 再次运行"
@@ -86,7 +86,7 @@ bash <(curl -sSL https://raw.githubusercontent.com/Netflixxp/NF/main/nf.sh)
 #服务器功能调试
 #ChangeSource Linux换源脚本·下载
 function cssh(){
-wget -O "/root/changesource.sh" "https://raw.githubusercontent.com/Netflixxp/jcnf-box/master/sh/changesource.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/changesource.sh" "https://raw.githubusercontent.com/TT-IPIP/shell/master/jcnf-box-main/sh/changesource.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/changesource.sh"
 chmod 777 "/root/changesource.sh"
 yellow "下载完成"
@@ -104,7 +104,7 @@ green " bash changesource.sh restore 还原默认源 "
 
 #IPV.SH ipv4/6优先级调整
 function ipvsh(){
-wget -O "/root/ipv4.sh" "https://raw.githubusercontent.com/Netflixxp/jcnf-box/master/sh/ipv4.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/ipv4.sh" "https://raw.githubusercontent.com/TT-IPIP/shell/master/jcnf-box-main/sh/ipv4.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/ipv4.sh"
 chmod 777 "/root/ipv4.sh"
 yellow "下载完成,之后可执行 bash /root/ipv4.sh 再次运行"
@@ -113,7 +113,7 @@ bash "/root/ipv4.sh"
 
 #SWAP一键安装/卸载脚本
 function swapsh(){
-wget -O "/root/swap.sh" "https://raw.githubusercontent.com/Netflixxp/jcnf-box/master/sh/swap.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/swap.sh" "https://raw.githubusercontent.com/TT-IPIP/shell/master/jcnf-box-main/sh/swap.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/swap.sh"
 chmod 777 "/root/swap.sh"
 yellow "下载完成,你也可以输入 bash /root/swap.sh 来手动运行"
@@ -212,7 +212,7 @@ bash "/root/btpj.sh"
 #科学上网工具
 #iptables.sh iptable中转
 function iptsh(){
-wget -O "/root/iptables.sh" "https://raw.githubusercontent.com/Netflixxp/jcnf-box/main/sh/iptables.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/iptables.sh" "https://raw.githubusercontent.com/TT-IPIP/shell/master/jcnf-box-main/sh/iptables.sh" --no-check-certificate -T 30 -t 5 -d
 chmod +x "/root/iptables.sh"
 chmod 777 "/root/iptables.sh"
 yellow "下载完成，你也可以输入 bash /root/iptables.sh 来手动运行"
@@ -265,9 +265,9 @@ bash <(curl -Ls https://blog.sprov.xyz/v2-ui.sh)
 function start_menu(){
     clear
     red " jcnf 常用脚本包" 
-    green " https://github.com/Netflixxp/jcnf-box "
-    green " 博客 https://ybfl.xyz "
-	green " TG频道 https://t.me/mffjc "
+    green " https://github.com/TT-IPIP/shell/jcnf-box-main "
+    green " 博客 https://google.com "
+	green " TG频道 https://t.me "
 	
 	yellow " =======服务器检查============================== "
     green " 1. Lemonbench 综合测试 "
