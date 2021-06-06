@@ -25,7 +25,7 @@
 ---
 ### 安装:
 ``` bash
-bash <(curl -s -L https://git.io/gaoji.sh)
+bash <(curl -s -L https://cdn.jsdelivr.net/gh/TT-IPIP/shell@master/sh/gaoji.sh)
 ```
 
 ---
