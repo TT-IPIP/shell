@@ -9,7 +9,7 @@
 
 安装并运行脚本
 
-	wget -O jcnfbox.sh https://raw.githubusercontent.com/TT-IPIP/shell/jcnf-box/master/jcnfbox.sh && chmod +x jcnfbox.sh && clear && ./jcnfbox.sh
+	wget -O jcnfbox.sh https://cdn.jsdelivr.net/gh/TT-IPIP/shell@master/jcnf-box-main/jcnfbox.sh && chmod +x jcnfbox.sh && clear && ./jcnfbox.sh
 ***
 
 # 功能说明
