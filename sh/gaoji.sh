@@ -41,7 +41,7 @@ elif [[ ${need} == "3" ]]; then
 elif [[ ${need} == "4" ]]; then
 	wget http://soft.vpser.net/lnmp/lnmp1.7beta.tar.gz -cO lnmp1.7beta.tar.gz && tar zxf lnmp1.7beta.tar.gz && cd lnmp1.7 && ./install.sh lnmp
 elif [[ ${need} == "5" ]]; then
-	wget http://raw.githubusercontent.com/qazxcdswe123/gaoji/master/asf.sh && chmod +x asf.sh && bash asf.sh
+	wget http://raw.githubusercontent.com/TT-IPIP/shell/sh/master/asf.sh && chmod +x asf.sh && bash asf.sh
 elif [[ ${need} == "6" ]]; then
 	bash adbyby.sh || wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/adbyby.sh && chmod +x adbyby.sh && bash adbyby.sh
 elif [[ ${need} == "7" ]]; then
@@ -53,17 +53,17 @@ elif [[ ${need} == "9" ]]; then
 elif [[ ${need} == "10" ]]; then
 	bash aria2.sh || wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/aria2.sh && chmod +x aria2.sh && bash aria2.sh
 elif [[ ${need} == "11" ]]; then
-	curl https://raw.githubusercontent.com/qazxcdswe123/gaoji/master/relay.sh | bash
+	curl https://raw.githubusercontent.com/TT-IPIP/shell/sh/master/relay.sh | bash
 elif [[ ${need} == "12" ]]; then
 	bash ban_iptables.sh || wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ban_iptables.sh && chmod +x ban_iptables.sh && bash ban_iptables.sh
 elif [[ ${need} == "13" ]]; then
 	./speedtest-cli || wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py && chmod +x speedtest-cli && ./speedtest-cli
 elif [[ ${need} == "14" ]]; then
-	curl https://raw.githubusercontent.com/qazxcdswe123/gaoji/master/gost-s.sh | bash
+	curl https://raw.githubusercontent.com/TT-IPIP/shell/sh/master/gost-s.sh | bash
 elif [[ ${need} == "15" ]]; then
-	wget -N --no-check-certificate https://raw.githubusercontent.com/qazxcdswe123/gaoji/master/gost-c.sh && chmod +x gost-c.sh && bash gost-c.sh
+	wget -N --no-check-certificate https://raw.githubusercontent.com/TT-IPIP/shell/sh/master/gost-c.sh && chmod +x gost-c.sh && bash gost-c.sh
 elif [[ ${need} == "16" ]]; then
-	curl https://raw.githubusercontent.com/qazxcdswe123/gaoji/master/resilio.sh | bash
+	curl https://raw.githubusercontent.com/TT-IPIP/shell/sh/master/resilio.sh | bash
 else
 	echo -e "请输入正确的数字(1-16)" && exit 1
 fi
