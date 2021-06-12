@@ -7,7 +7,9 @@
 ```
 curl -fLO https://raw.githubusercontent.com/TT-IPIP/shell/master/jgw/debi.sh && chmod a+rx debi.sh
 ```
-
+```
+sudo ./debi.sh --architecture arm64 --user root --password password
+```
 运行脚本：
 
 ```
