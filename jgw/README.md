@@ -156,34 +156,3 @@ Otherwise, you can run this command to revert all changes made by the script:
  * `--mirror-host mirrors.aliyun.com`
  * `--security-repository mirror`
  * `--ntp ntp.aliyun.com`
-
-DD系统
-新建实例时选的 ubuntu 20.4，非 mini 版！然后DD成 Debian10系统！
-
-1
-2
-3
-curl -fLO https://raw.githubusercontent.com/TT-IPIP/shell/master/debi.sh
-chmod a+rx debi.sh
-sudo ./debi.sh --architecture arm64 --user root --password password
-设置默认root的密码为password，登陆成功之后记得自己输入passwd修改密码！！！
-
-没报错的话继续运行：
-```
-sudo shutdown -r now
- ```
-更新内核至5.10
-
-参考：https://p3terx.com/archives/debian-linux-vps-server-wireguard-installation-tutorial.html
-
-```
-echo "deb http://deb.debian.org/debian $(lsb_release -sc)-backports main" | sudo tee /etc/apt/sources.list.d/backports.list
- ```
-sudo apt update
- ```
-uname -r
-此时看到的版本应该是4.19的，为了之后安装warp方便，我们可以更新内核到新版，5.6以上就自带了wireguard了，现在最新的是5.10
-
-```
-sudo apt -t $(lsb_release -sc)-backports install linux-image-$(dpkg --print-architecture) linux-headers-$(dpkg --print-architecture) --install-recommends -y
- ```
