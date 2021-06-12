@@ -10,10 +10,10 @@ curl -fLO https://raw.githubusercontent.com/TT-IPIP/shell/master/jgw/debi.sh && 
 
 运行脚本：二选一
 
-```1
-sudo ./debi.sh --cdn --network-console --ethx --bbr --user root --password <这里设置 root 密码>
 ```
-```2
+1
+sudo ./debi.sh --cdn --network-console --ethx --bbr --user root --password <这里设置 root 密码>
+2
 sudo ./debi.sh --architecture arm64 --user root --password password
 ```
 * 以上命令选项开启了 BBR；设置了网卡名称形式是 `eth0` 而不是 `ens3` 这种。
